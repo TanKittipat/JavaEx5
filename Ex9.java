@@ -4,7 +4,7 @@ public class Ex9 {
     public static void main(String[] args) {
         Scanner Ex9 = new Scanner(System.in);
         System.out.print("ระบุชื่อ : ");
-        String name = Ex9.next();
+        String name = Ex9.nextLine();
         int birth;
         int years;
         do {
